@@ -1,0 +1,57 @@
+baseURL = "https://www.michaelapp.com/"
+languageCode = "zh-CN"
+title = "Michael.Pan的博客"
+theme = "maupassant"
+googleAnalytics = "UA-63578915-1"
+hasCJKLanguage = true
+copyright = "&copy; 2019. All rights reserved."
+relativeurls = true
+
+## 保持分类的原始名字（false会做转小写处理）
+preserveTaxonomyNames = true
+
+## 是否禁止URL Path转小写
+disablePathToLower = true
+
+# 分页
+paginate = 10
+paginatePath = "page"
+archive-paginate = 50
+
+[author]
+  name = "Michael.Pan"
+
+[params]
+  author = "Michael.Pan"
+  subtitle = "专注于物联网、人工智能、AR/VR、Android等软件设计和研发"
+  keywords = "iot,ar,vr,ai,go语言,golang,Michael.Pan,博客,项目管理,软件架构"
+  description = "专注于物联网、人工智能、AR/VR、Android等软件设计和研发"
+
+[params.features]
+    enable = true
+	
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "全部"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 5
+	
+	
+##更多详见 https://utteranc.es
+[params.utteranc]
+	enable = true
+    repo = "panyingyun/utterances"    # 存储评论的Repo，格式为 owner/repo
+    issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
+    theme = "github-light" # 样式主题，有github-light和github-dark两种
+
+[params.busuanzi]
+  busuanzi = true
+
+
+	
